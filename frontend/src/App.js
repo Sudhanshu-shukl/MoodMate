@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import Chat from './chat';
 import Navbar from './Navbar';
 import About from './About';
@@ -89,6 +89,7 @@ function MainApp() {
               path="/about"
               element={<About />}
             />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </FadeTransition>
       </div>
