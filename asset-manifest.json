@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MoodMate/static/css/main.25aae659.css",
-    "main.js": "/MoodMate/static/js/main.3ee093ef.js",
+    "main.js": "/MoodMate/static/js/main.8ce6931a.js",
     "static/js/453.670e15c7.chunk.js": "/MoodMate/static/js/453.670e15c7.chunk.js",
     "index.html": "/MoodMate/index.html",
     "main.25aae659.css.map": "/MoodMate/static/css/main.25aae659.css.map",
-    "main.3ee093ef.js.map": "/MoodMate/static/js/main.3ee093ef.js.map",
+    "main.8ce6931a.js.map": "/MoodMate/static/js/main.8ce6931a.js.map",
     "453.670e15c7.chunk.js.map": "/MoodMate/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25aae659.css",
-    "static/js/main.3ee093ef.js"
+    "static/js/main.8ce6931a.js"
   ]
 }
