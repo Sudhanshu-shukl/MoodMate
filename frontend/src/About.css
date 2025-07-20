@@ -1,0 +1,122 @@
+.about-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+
+.about-card {
+  background: #23262f;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.18);
+  border: 1px solid #353945;
+  padding: 44px 38px 36px 38px;
+  max-width: 420px;
+  width: 100%;
+  color: #e6e6e6;
+  font-family: 'Inter', 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 12px 0 #3772ff33;
+  object-fit: cover;
+}
+
+.about-card h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #3772ff;
+}
+
+.about-mission {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #b1b5c3;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+.about-desc {
+  font-size: 1.08rem;
+  margin-bottom: 18px;
+  line-height: 1.7;
+  color: #e6e6e6;
+}
+
+.about-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px 0;
+  text-align: left;
+}
+
+.about-features li {
+  font-size: 1.01rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e6e6e6;
+}
+
+.about-icon {
+  font-size: 1.25em;
+  margin-right: 6px;
+}
+
+.about-author {
+  margin-top: 18px;
+  font-size: 1.01rem;
+  color: #b1b5c3;
+}
+
+.about-author-title {
+  margin-bottom: 6px;
+}
+
+.about-portfolio-link {
+  color: #3772ff;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.18s;
+}
+
+.about-portfolio-link:hover {
+  color: #2653b6;
+}
+
+@media (max-width: 600px) {
+  .about-card {
+    padding: 18px 6vw 18px 6vw;
+    max-width: 98vw;
+    margin-top: 54px;
+  }
+  .about-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  .about-card h1 {
+    font-size: 1.2rem;
+  }
+  .about-mission {
+    font-size: 0.98rem;
+  }
+  .about-desc, .about-features li, .about-author {
+    font-size: 0.93rem;
+  }
+} 
